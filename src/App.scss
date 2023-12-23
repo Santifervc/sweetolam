@@ -1,0 +1,203 @@
+.craving{
+    padding-left: 195px;
+    background-color: rgb(104, 73, 73);
+}
+
+.card-products{
+    display: grid;
+    grid-template-columns: 17.7% 17.7% 17.7% 17.7% 17.7%;
+    grid-template-rows: 70% 70% 70% 70% 70%;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    width:max-content;
+    height: 100px;
+    height: 600px;
+    justify-content: space-between;
+    margin: 90px;
+    align-items: baseline;
+    gap: 50px;
+}
+
+h5{
+    color: black;
+    justify-content: center;
+}
+
+p{
+    color: black;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70% 100% 50%;
+    width: 40%;
+    height: 40%;
+    margin: 50px;
+    gap: 50px;
+    background-color: pink;
+}
+
+.productDetails{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+    gap: 50px;
+    background-color: beige;
+}
+
+.carousel{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.card{
+    img{
+        height: 270px;
+    }
+    justify-content: space-evenly;
+    display: flex;
+    &--title{
+        font-size: medium;
+    }
+}
+
+.labels{
+    background-color: rgb(197, 56, 143);
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+.events-description{
+    background-color: rgb(74, 74, 116);
+    img{
+        width: 100% ;
+        height: 100%;
+    }
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 300px 300px;
+    gap: 50px;
+    padding: 50px;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 10;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 50px;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+.navbar-routes a{
+    background-color: rgb(194, 132, 132);
+}
+
+
+.box form{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box form >*{
+    padding: 5px;
+}
+
+.myo-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    font-size: x-large;
+    align-items: center;
+    background-color: rgb(216, 152, 163);
+}
+
+.filter-product{
+    padding: 5px ;
+    border-radius: 5%;
+}
+
+.logo{
+    height: 300px;
+}
+
+.founder-profile{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.founder-photo{
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+}
+
+.founder-description{
+    margin: 20px;
+    justify-content: center;
+    width: 600px;
+    height:auto;
+}
+
+.cart{
+    background-color: rgb(207, 90, 207);
+    display: flex;
+    padding: 100px;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.cart-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer{
+    gap: 50px;
+    box-shadow: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+    font-size: xx-large;
+    background-color: rgb(90, 90, 189);
+}
